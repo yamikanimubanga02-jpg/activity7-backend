@@ -1,19 +1,17 @@
 {
-    "name": "backend",
-    "version": "1.0.0",
-    "description": "ICT251 Activity 4 Backend API",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "cors": "^2.8.6",
-        "dotenv": "^16.6.1",
-        "express": "^4.22.3",
-        "mysql2": "^3.24.6"
-    },
-    "type": "commonjs"
+  "name": "activity7-backend",
+  "version": "1.0.0",
+  "description": "ICT251 Activity 7: Campus Maintenance Requests API (Node.js, Express, PostgreSQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
 }
